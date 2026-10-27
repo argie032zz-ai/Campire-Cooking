@@ -95,7 +95,7 @@ function MenuPage() {
 
         <section className="py-12 md:px-4">
           <div className="w-[90%] max-w-[1200px] mx-auto">
-            <h1 className="font-AlegreyaSC font-bold text-center text-3xl mb-8 text-[#2d0f3f]">
+            <h1 className="font-AlegreyaSC font-bold text-center text-3xl mb-8 text-[#2d0f3f] md:text-5xl">
               Our Menu
             </h1>
             {MenuSection.map((section) => (
