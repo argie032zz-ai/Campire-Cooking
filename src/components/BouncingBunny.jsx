@@ -4,16 +4,17 @@ const BASE_SPEED = 0.06; // drift speed in pixels per millisecond (about 60px pe
 const SPIN_SPEED = 0.015; // spin speed in degrees per millisecond
 const MIN_WIDTH = 640; // screens narrower than this (small phones) don't show it
 const CARD_W = 300; // size of the card when opened
-const CARD_H = 196;
+const CARD_H = 207;
 
 function BouncingBunny({
   src = "/img/hehe.jpg",
   size = 110, // size of the circle
-  name = "Zelliene",
+  name = "Zerienne",
   details = [
-    "Role: Head Pastry Taste-Tester",
-    "Favorite: Carrot cake",
-    "Status: Hopping around",
+    "Role: Architect",
+    "Favorite: Her💘",
+    'Hobbies: Loving my "Favorite"',
+    'Status: Hopping around \n "inspired by DVD"',
   ],
 }) {
   const elRef = useRef(null);
